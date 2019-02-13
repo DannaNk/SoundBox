@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1> Piano Land </h1>
+  <div class="keys">
+    <div data-key="65" class="key white" >
+      <kbd>A</kbd>
+      <span class="sound">Do</span>
+    </div>
+    <div data-key="90" class="key black" >
+      <kbd>Z</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="83" class="key white">
+      <kbd>S</kbd>
+      <span class="sound">Ré</span>
+    </div>
+    <div data-key="69" class="key black" >
+      <kbd>E</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="68" class="key white">
+      <kbd>D</kbd>
+      <span class="sound">Mi</span>
+    </div>
+    <div data-key="70" class="key white">
+      <kbd>F</kbd>
+      <span class="sound">Fa</span>
+    </div>
+    <div data-key="82" class="key black" >
+      <kbd>R</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="71" class="key white">
+      <kbd>G</kbd>
+      <span class="sound">Sol</span>
+    </div>
+    <div data-key="84" class="key black" >
+      <kbd>T</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="72" class="key white">
+      <kbd>H</kbd>
+      <span class="sound">La</span>
+    </div>
+    <div data-key="89" class="key black" >
+      <kbd>Y</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="74" class="key white">
+      <kbd>J</kbd>
+      <span class="sound">Si</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/Do.m4a"></audio>
+  <audio data-key="90" src="sounds/Do.m4a"></audio>
+  <audio data-key="83" src="sounds/Re.wav"></audio>
+  <audio data-key="69" src="sounds/Re.wav"></audio>
+  <audio data-key="68" src="sounds/Mi.wav"></audio>
+  <audio data-key="70" src="sounds/Fa.wav"></audio>
+  <audio data-key="82" src="sounds/Fa.wav"></audio>
+  <audio data-key="71" src="sounds/Sol.m4a"></audio>
+  <audio data-key="84" src="sounds/Sol.m4a"></audio>
+  <audio data-key="72" src="sounds/La.wav"></audio>
+  <audio data-key="89" src="sounds/La.wav"></audio>
+  <audio data-key="74" src="sounds/Si.wav"></audio>
+  <audio data-key="75" src="sounds/tom.wav"></audio>
+  <audio data-key="76" src="sounds/tink.wav"></audio>
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
